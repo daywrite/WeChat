@@ -206,7 +206,9 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -225,6 +227,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\L.WCS.BLL\L.WCS.BLL.csproj">
+      <Project>{6bb47924-fa86-4fe4-bfb9-978affd7879f}</Project>
+      <Name>L.WCS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\L.WCS.Common\L.WCS.Common.csproj">
+      <Project>{dc10396d-f8f6-46bd-9abf-9d6072c71983}</Project>
+      <Name>L.WCS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\L.WCS.DAL\L.WCS.DAL.csproj">
+      <Project>{d88aac5f-b0c5-425e-ace1-ad8b1a359453}</Project>
+      <Name>L.WCS.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\L.WCS.DataModel\L.WCS.DataModel.csproj">
+      <Project>{6b966d7e-77bd-4550-83b6-70f7defc8242}</Project>
+      <Name>L.WCS.DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\L.WCS.IBLL\L.WCS.IBLL.csproj">
+      <Project>{95332c29-c65a-4f2c-bc1e-c721090237cc}</Project>
+      <Name>L.WCS.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\L.WCS.IDAL\L.WCS.IDAL.csproj">
+      <Project>{057fe78b-8b2d-43e1-96ea-b21ad2b05809}</Project>
+      <Name>L.WCS.IDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

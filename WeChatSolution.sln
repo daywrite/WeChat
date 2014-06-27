@@ -5,6 +5,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShareLibs", "ShareLibs", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L.WCS.Tests", "L.WCS.Tests\L.WCS.Tests.csproj", "{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L.WCS.WeChat", "L.WCS.WeChat\L.WCS.WeChat.csproj", "{E668AB20-2AC7-419C-86AD-066B308C1559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E668AB20-2AC7-419C-86AD-066B308C1559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E668AB20-2AC7-419C-86AD-066B308C1559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E668AB20-2AC7-419C-86AD-066B308C1559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E668AB20-2AC7-419C-86AD-066B308C1559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

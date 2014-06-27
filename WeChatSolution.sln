@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShareLibs", "ShareLibs", "{505A411E-2F56-43ED-9639-338BE0244D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L.WCS.Tests", "L.WCS.Tests\L.WCS.Tests.csproj", "{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4261D5B8-250F-4D8A-B81A-2B406FEEAABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
